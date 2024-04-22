@@ -32,7 +32,7 @@ import {
               </ListItemButton>
             </Link>
             <Link
-              href="/About"
+              href="/about"
               variant=""
               component={nextLink}
               /*this works as a Next.js Link while being an mui Link*/ sx={{
@@ -44,7 +44,7 @@ import {
               </ListItemButton>
             </Link>
             <Link
-              href="/Contact"
+              href="/contact"
               variant=""
               component={nextLink}
               /*this works as a Next.js Link while being an mui Link*/ sx={{
