@@ -13,11 +13,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <NavBarComponent />
-
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
-            <StyledEngineProvider injectFirst>{children}</StyledEngineProvider>
+            <StyledEngineProvider injectFirst>
+              <NavBarComponent />
+              {children}
+            </StyledEngineProvider>
           </ThemeProvider>
         </AppRouterCacheProvider>
       </body>

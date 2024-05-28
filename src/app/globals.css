@@ -5,7 +5,9 @@
 main{
   @apply m-3.5
 }
-
+body{
+  
+}
 .parent{
   @apply w-full flex
 }
