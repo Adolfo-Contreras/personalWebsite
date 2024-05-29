@@ -6,8 +6,8 @@ main{
   @apply m-3.5
 }
 body{
-  
+  @apply bg-[#F2F7F2]
 }
-.parent{
-  @apply w-full flex
+p{
+  @apply m-0 p-0 
 }
